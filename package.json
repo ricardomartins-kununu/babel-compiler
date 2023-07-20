@@ -1,0 +1,16 @@
+{
+  "name": "babel-compiler",
+  "version": "1.0.0",
+  "description": "Compile code using babel",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel src --out-dir dist"
+  },
+  "author": "ricardo martins",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.22.9",
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9"
+  }
+}
